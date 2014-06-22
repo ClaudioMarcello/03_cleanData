@@ -40,6 +40,9 @@ The run_analysis.R script procedure is as follows:
     4.4 Affix subject and activity columns to measurement set.
 
 5. Create a tidy measurement set with each combination of subject, activity and the average of measurement variable:
+
     5.1 Melt the measurement set keeping subject, activity, variable name and measurement.
+
     5.2 Cast the molten set averaging the measurements by combination of subject, activity and variable.
+
 6.  Export the tidy measuremet set to a tab separated text file.
