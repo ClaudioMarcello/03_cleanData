@@ -8,7 +8,6 @@ Purpose: This code book describes the variables, data and transformations
 
 The source data is available in following link
 
-	
     https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 
@@ -17,53 +16,29 @@ After downloading and unziping this file, the source data is in following folder
 UCI HAR Dataset			<- this is the working directory
 
     |
-
     |-train			<- train data folder
-
     |   |-X_train.txt		<- table of 7352 observations of 561 variables
-
     |  	|			data are measurements of the variables
-
     |   |-y_train.txt		<- table of 7352 observations of 1 variable
-
     | 	|			data are code number of activity performed
-
     | 	|-subject_train.txt	<- table of 7352 observations of 1 variable
-
 	  |   |			data are number of subject who performed the activity
-
     |
-
     |-test			<- test data folder
-
     |    |-X_test.txt		<- table of 2947 observations of 561 variables
-
 	  |   |			data are measurements of the variables
-
     |   |-y_test.txt		<- table of 2947 observations of 1 variable
-
     |  	|			data are code number of activity performed
-
     |  	|-subject_test.txt	<- table of 2947 observations of 1 variable
-
     |  	|			data are number of subject who performed the activity
-
     |   |
-
     |-features_info.txt		<- table of 561 observations of 1 variable
-
     |				data are the names of the measurements tabulated in the X_ files
-
     |				the project ask for extracting those measurements whose name
-
     |				includes "mean()" or "sdev()"
-
     |-activity_labels.txt	<- table of 6 observations of 1 variable
-
     |				data are the activity names
-
     |				the project ask for remplacing activity code for the activity name
-
 
 
 *** Procedure to clean up the data ***
