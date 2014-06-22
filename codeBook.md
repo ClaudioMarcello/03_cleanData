@@ -21,11 +21,11 @@ UCI HAR Dataset			<- this is the working directory
     |   |-y_train.txt		<- table of 7352 observations of 1 variable
     | 	|			data are code number of activity performed
     | 	|-subject_train.txt	<- table of 7352 observations of 1 variable
-	  |   |			data are number of subject who performed the activity
+    |   |			data are number of subject who performed the activity
     |
     |-test			<- test data folder
     |    |-X_test.txt		<- table of 2947 observations of 561 variables
-	  |   |			data are measurements of the variables
+    |   |			data are measurements of the variables
     |   |-y_test.txt		<- table of 2947 observations of 1 variable
     |  	|			data are code number of activity performed
     |  	|-subject_test.txt	<- table of 2947 observations of 1 variable
