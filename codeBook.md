@@ -1,4 +1,3 @@
-Enter file contents here
 Code book
 
 Purpose: This code book describes the variables, data and transformations
@@ -93,15 +92,15 @@ UCI HAR Dataset			<- this is the working directory
 
 
 
-6. Create a second, independent tidy data set with the average of each variable for each activity and each subject. 
+5. Create a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
-	6.1 Melt the measurements set keeping subject and activity;
+	5.1 Melt the measurements set keeping subject and activity;
 
 		measurement name and measurement value go into two new columns
 
 		(679734 observations of 4 variables)
 
-	6.2 Cast the molten data set with subject and activity in the vertical direction
+	5.2 Cast the molten data set with subject and activity in the vertical direction
 
 		and measurement name and *** the average of measurement value *** in the horizontal direction
 
@@ -109,6 +108,6 @@ UCI HAR Dataset			<- this is the working directory
 
 
 
-7.  Write tidy data set to tab separated text file
+6.  Write tidy data set to tab separated text file
 
 
