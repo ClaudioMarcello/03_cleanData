@@ -42,26 +42,24 @@ UCI HAR Dataset			<- this is the working directory
 
 *** Procedure to clean up the data ***
 
-1. Merge the training and the test sets (X_ files) to create one data set
+1. Merge the training and the test sets (X_ files) to create one data set. 
+
 	The result is a measurements set of 10299 observations of 561 variables
 
 
 2. Appropriately label the data set with descriptive variable names. 
+
 	Use the features_info.txt file to name the 561 variables of the measurements set
 
 
 
 3. Extract only the measurements on the mean and standard deviation for each measurement
 
-	3.1 Use the features table to generate a boolean vector indicating 
-
-		those variable names containing "mean()" or "std()"
+	3.1 Use the features table to generate a boolean vector indicating those variable names containing "mean()" or "std()"
 
 	3.2 Use above boolean vector to filter from measurements set the summarizing data
 
-		This is the new measurements set 
-
-		(10299 observations of 66 variables)
+		This is the new measurements set (10299 observations of 66 variables)
 
  
 
