@@ -13,6 +13,7 @@ The source data is available in following link
 After downloading and unziping this file, the source data is in following folders
 
 UCI HAR Dataset			<- this is the working directory
+
     |
     |-train			<- train data folder
     |   |-X_train.txt		<- table of 7352 observations of 561 variables
@@ -42,13 +43,10 @@ UCI HAR Dataset			<- this is the working directory
 *** Procedure to clean up the data ***
 
 1. Merge the training and the test sets (X_ files) to create one data set
-
 	The result is a measurements set of 10299 observations of 561 variables
 
 
-
 2. Appropriately label the data set with descriptive variable names. 
-
 	Use the features_info.txt file to name the 561 variables of the measurements set
 
 
