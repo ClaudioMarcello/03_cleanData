@@ -13,7 +13,6 @@ The source data is available in following link
 After downloading and unziping this file, the source data is in following folders
 
 UCI HAR Dataset			<- this is the working directory
-
     |
     |-train			<- train data folder
     |   |-X_train.txt		<- table of 7352 observations of 561 variables
