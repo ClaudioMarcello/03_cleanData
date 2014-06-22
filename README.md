@@ -20,7 +20,8 @@ Procedure to clean up the data file.
 
 4. Run the script
 
-The script run_analysis.R script procedure is as follows:
+
+The run_analysis.R script procedure is as follows:
 
 1. Read and merge the training and the test sets (X_ sets) to create one measurement set.
 
